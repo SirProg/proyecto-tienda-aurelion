@@ -12,6 +12,9 @@ Analizar los datos para encontrar los productos más y menos vendidos, su frecue
 
 2. fuente:
    definición:
+
    Estructura: Se adoptará un modelo de datos estructurados, caracterizado por su alto nivel de organización y formato predefinido. Estos datos se almacenarán en        tablas compuestas por filas y columnas.
+   
    Tipos: Numéricos (enteros(INT) y decimales (FLOAT)), Texto (cadena de caracteres(STRING)) y Fecha (DATE).
+   
    Escala: Nominal (Categórica) y De Razón (Ratio).
