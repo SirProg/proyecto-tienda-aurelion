@@ -9,3 +9,9 @@ La empresa puede estar comprando demasiado de algunos productos que casi no se v
 
 Solución:
 Analizar los datos para encontrar los productos más y menos vendidos, su frecuencia, la temporada o ciudad donde más se compran, y generar alertas o recomendaciones para organizar el inventario y evitar pérdidas.
+
+2. fuente:
+   definición:
+   estructura:
+   tipos:
+   escala:
