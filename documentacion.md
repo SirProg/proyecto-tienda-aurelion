@@ -1,6 +1,7 @@
 # proyecto-tienda-aurelion
 Gestión eficiente de inventario 
 
+1.
 Tema:
 Identificar qué productos se venden más y cuáles se quedan estancados para mejorar la gestión del stock.
 
@@ -10,15 +11,16 @@ La empresa puede estar comprando demasiado de algunos productos que casi no se v
 Solución:
 Analizar los datos para encontrar los productos más y menos vendidos, su frecuencia o ciudad donde más se compran, y generar alertas o recomendaciones para organizar el inventario y evitar pérdidas.
 
-2.
-La información utilizada para este análisis proviene de tablas en formato Excel que contienen datos estructurados sobre los productos, sus ventas y existencias en distintos periodos y ubicaciones. Estas tablas constituyen la base principal del estudio, ya que permiten observar y analizar el comportamiento de los productos dentro del inventario. A partir de ellas, es posible identificar patrones de venta, detectar cuáles artículos tienen una mayor rotación y cuáles permanecen en stock por más tiempo, lo que facilita la toma de decisiones estratégicas relacionadas con el control y la optimización del inventario.
+2. Dataset de referencia:
+Fuente: La información utilizada para este análisis proviene de tablas en formato Excel que contienen datos estructurados sobre los productos, sus ventas y existencias en distintos periodos y ubicaciones. Estas tablas constituyen la base principal del estudio, ya que permiten observar y analizar el comportamiento de los productos dentro del inventario. A partir de ellas, es posible identificar patrones de venta, detectar cuáles artículos tienen una mayor rotación y cuáles permanecen en stock por más tiempo, lo que facilita la toma de decisiones estratégicas relacionadas con el control y la optimización del inventario.
 
-Este tipo de información corresponde a datos estructurados de origen primario
-
-En este contexto, la gestión eficiente del inventario se entiende como el proceso de analizar los datos de ventas y existencias para determinar qué productos se comercializan con mayor frecuencia y cuáles tienden a mantenerse sin movimiento. El objetivo principal de esta gestión es optimizar el control del stock, prevenir pérdidas económicas y mejorar la planificación tanto de las compras como del abastecimiento. A través del análisis de estos datos, se busca obtener información valiosa que sirva para orientar decisiones estratégicas, como ajustar los pedidos de acuerdo con la demanda, la temporada o incluso la ubicación geográfica, asegurando así una administración más precisa y rentable del inventario.
+Definición: Este tipo de información corresponde a datos estructurados de origen primario, en este contexto, la gestión eficiente del inventario se entiende como el proceso de analizar los datos de ventas y existencias para determinar qué productos se comercializan con mayor frecuencia y cuáles tienden a mantenerse sin movimiento. El objetivo principal de esta gestión es optimizar el control del stock, prevenir pérdidas económicas y mejorar la planificación tanto de las compras como del abastecimiento. A través del análisis de estos datos, se busca obtener información valiosa que sirva para orientar decisiones estratégicas, como ajustar los pedidos de acuerdo con la demanda, la temporada o incluso la ubicación geográfica, asegurando así una administración más precisa y rentable del inventario.
 
 Estructura: Se adoptará un modelo de datos estructurados, caracterizado por su alto nivel de organización y formato predefinido. Estos datos se almacenarán entablas compuestas por filas y columnas.
    
 Tipos: Numéricos (enteros(INT) y decimales (FLOAT)), Texto (cadena de caracteres(STRING)) y Fecha (DATE).
    
 Escala: Nominal (Categórica) y De Razón (Ratio).
+
+3. 
+Información: 
