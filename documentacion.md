@@ -1,39 +1,38 @@
-# proyecto-tienda-aurelion
 # Gestión eficiente de inventario 
-
-
-# Tema:
+## Tema:
 El proyecto se centra en la identificación de los productos con mayor y menor rotación en el inventario, con el propósito de optimizar la gestión del stock. Este análisis resulta fundamental para las empresas, ya que permite anticiparse a la demanda real, reducir pérdidas económicas y mejorar la eficiencia en la planificación de compras y abastecimiento.
 
-# Problema:
+## Problema:
 La empresa puede estar comprando demasiado de algunos productos que casi no se venden y poco de los que más se venden.
 
-# Solución:
+## Solución:
 La solución propuesta consiste en implementar un sistema de análisis de datos que permita:
 - Identificar los productos más vendidos y los que permanecen estancados en el inventario.  
 - Analizar la frecuencia de compra y las ciudades o regiones con mayor concentración de ventas.  
 - Generar alertas y recomendaciones automáticas para reorganizar el inventario, optimizar las compras y reducir pérdidas económicas.
 
+----
 
-# Dataset de referencia:
+## Dataset de referencia:
 
-# Fuente: 
+### Fuente: 
 La información utilizada para este análisis proviene de tablas en formato Excel que contienen datos estructurados sobre los productos, sus ventas y existencias en distintos periodos y ubicaciones. Estas tablas constituyen la base principal del estudio, ya que permiten observar y analizar el comportamiento de los productos dentro del inventario. A partir de ellas, es posible identificar patrones de venta, detectar cuáles artículos tienen una mayor rotación y cuáles permanecen en stock por más tiempo, lo que facilita la toma de decisiones estratégicas relacionadas con el control y la optimización del inventario.
 
-# Definición: 
+### Definición: 
 Este tipo de información corresponde a datos estructurados de origen primario, en este contexto, la gestión eficiente del inventario se entiende como el proceso de analizar los datos de ventas y existencias para determinar qué productos se comercializan con mayor frecuencia y cuáles tienden a mantenerse sin movimiento. El objetivo principal de esta gestión es optimizar el control del stock, prevenir pérdidas económicas y mejorar la planificación tanto de las compras como del abastecimiento. A través del análisis de estos datos, se busca obtener información valiosa que sirva para orientar decisiones estratégicas, como ajustar los pedidos de acuerdo con la demanda, la temporada o incluso la ubicación geográfica, asegurando así una administración más precisa y rentable del inventario.
 
-# Estructura: 
+### Estructura: 
 Se adoptará un modelo de datos estructurados, caracterizado por su alto nivel de organización y formato predefinido. Estos datos se almacenarán entablas compuestas por filas y columnas.
    
-# Tipos: 
+### Tipos: 
 Numéricos (enteros(INT) y decimales (FLOAT)), Texto (cadena de caracteres(STRING)) y Fecha (DATE).
    
-# Escala: 
+### Escala: 
 Nominal (Categórica) y De Razón (Ratio).
 
- 
-# Información: 
+----
+
+### Información: 
 El programa desarrollado en Python presenta un menú interactivo en consola que permite al usuario explorar la información del proyecto de manera organizada.
 
 Opciones del menú:
@@ -44,15 +43,15 @@ Opciones del menú:
 4 - Sugerencias y mejoras aplicadas con copilot.
 5 - Salir.
 
-# Pasos: 
+### Pasos: 
 1. El usuario ejecuta el programa en la terminal de Visual Studio Code.  
 2. Se despliega el menú con las opciones numeradas.  
 3. El usuario selecciona una opción ingresando el número correspondiente.  
 4. El programa muestra la información asociada a la opción elegida.  
 5. El menú se repite hasta que el usuario seleccione la opción de salida.
 
-# Pseudocódigo:
-
+### Pseudocódigo:
+```
 // ------------------------------------------
 // INICIO del Programa
 // ------------------------------------------
@@ -110,12 +109,13 @@ INICIO
     FIN MIENTRAS
     
     ESCRIBIR "Saliendo del programa..."
-
 FIN
+```
 
+### Diagrama del programa: 
+![Diagrama de clase](/proyecto-tienda-aurelion/diagrama_de_flujo.jpeg)
 
-# Diagrama del programa: (Ver imagen Diagrama de Flujo - Grupo 6.jpeg)
-
+----
 
 # Sugerencias y mejoras aplicadas con Copilot:
 Le pedimos a Copilot sugerencias respecto a la documentación del proyecto, Copilot proporcionó la siguiente información:
@@ -223,7 +223,26 @@ Justificación: Estas recomendaciones fortalecen la presentación académica y t
 8. Conclusión
 La documentación debe reflejar tanto los aspectos teóricos (tema, problema, solución, dataset) como los técnicos (estructura de datos, programa interactivo, flujo de uso). Una redacción clara, organizada y detallada permitirá que el proyecto sea comprendido y replicado con facilidad en contextos educativos y profesionales.
 
-# De todas las sugerencias proporcionadas por Copilot, se decidieron aplicar estos puntos porque aportaban mayor claridad, coherencia con los objetivos del proyecto y valor técnico para su comprensión:
-(1. Tema): Se eligió esta redacción porque sintetiza de forma precisa el propósito central del proyecto: analizar el comportamiento del inventario a partir de la identificación de productos con mayor y menor rotación, resalta la importancia empresarial del análisis de datos en la gestión del stock, además, el texto conecta claramente con los objetivos de optimización, predicción de la demanda y reducción de pérdidas, logrando un tono profesional y alineado con el campo de la inteligencia artificial aplicada a la toma de decisiones.
-(3. Solución): Se eligió por su estructura ordenada, completa, específica y detalla qué hace el sistema y para qué sirve, los ejes aportan claridad al lector y comunica de manera sencilla cómo el análisis de datos puede transformar la gestión del inventario, combina un lenguaje accesible con una descripción técnica precisa, facilitando la comprensión del alcance y el impacto de la solución propuesta.
-(6. Programa interactivo): Se eligió porque organiza de manera clara el funcionamiento del programa desarrollado en Python, describiendo su interacción con el usuario paso a paso, mantiene un equilibrio entre lenguaje técnico y accesible, ideal para el usuario, si bien se tuvo en cuenta la estructura porpuesta del menú, se mantuvieron las opciones del menú que ya se tenían establecidas para el programa de Phython.
+### Sugerencias que se aplicaron
+
+Se aplicaron las sugerencias que aportaban claridad, coherencia con los objetivos y valor técnico, entre las cuales:
+
+##### (1. Tema): 
+- Sintetiza con precisión el propósito central del proyecto.
+- Destaca la relevancia empresarial del análisis de datos en la gestión de inventario.
+- Conecta explícitamente con los objetivos de optimización, predicción de demanda y reducción de pérdidas.
+- Usa un tono profesional alineado con la inteligencia artificial aplicada a la toma de decisiones.
+
+
+##### (3. Solución): 
+- Presenta una estructura ordenada, completa y específica.
+- Explica claramente qué hace el sistema y para qué sirve.
+- Los ejes temáticos aportan claridad y facilitan la comprensión del lector.
+- Combina lenguaje accesible con descripción técnica precisa.
+- Comunica de forma efectiva el alcance y el impacto de la solución.
+
+##### (6. Programa interactivo):
+- Describe de manera clara y secuencial el funcionamiento del programa en Python.
+- Mantiene un equilibrio adecuado entre lenguaje técnico y accesible.
+- Respeta las opciones del menú ya establecidas en el programa original.
+- Explica la interacción con el usuario paso a paso, mejorando la usabilidad percibida.
