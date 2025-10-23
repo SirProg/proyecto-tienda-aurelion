@@ -42,3 +42,7 @@ Pasos:
 3. El usuario selecciona una opción ingresando el número correspondiente.  
 4. El programa muestra la información asociada a la opción elegida.  
 5. El menú se repite hasta que el usuario seleccione la opción de salida.
+
+Pseudocódigo:
+
+Diagrama del programa: (Ver imagen Diagrama de Flujo - Grupo 6.jpeg)
