@@ -113,7 +113,7 @@ FIN
 ```
 
 ### Diagrama del programa: 
-![Diagrama de clase](/proyecto-tienda-aurelion/diagrama_de_flujo.jpeg)
+![Diagrama de clase](diagrama_de_flujo.jpeg)
 
 ----
 
