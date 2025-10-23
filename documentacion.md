@@ -26,4 +26,17 @@ Tipos: Numéricos (enteros(INT) y decimales (FLOAT)), Texto (cadena de caractere
 Escala: Nominal (Categórica) y De Razón (Ratio).
 
 3. 
-Información: 
+Información: El programa desarrollado en Python presenta un menú interactivo en consola que permite al usuario explorar la información del proyecto de manera organizada.
+Opciones del menú:
+1 - Tema, problema y solución
+2 - Dataset de referencia
+3 - Información, pasos, pesudocódigo y diagrama del programa
+4 - Sugerencias y mejoras aplicadas con copilot
+5 - Salir
+
+Pasos: 
+1. El usuario ejecuta el programa en la terminal de Visual Studio Code.  
+2. Se despliega el menú con las opciones numeradas.  
+3. El usuario selecciona una opción ingresando el número correspondiente.  
+4. El programa muestra la información asociada a la opción elegida.  
+5. El menú se repite hasta que el usuario seleccione la opción de salida.
