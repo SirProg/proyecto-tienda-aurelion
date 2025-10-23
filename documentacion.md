@@ -3,13 +3,16 @@ Gestión eficiente de inventario
 
 1.
 Tema:
-Identificar qué productos se venden más y cuáles se quedan estancados para mejorar la gestión del stock.
+El proyecto se centra en la identificación de los productos con mayor y menor rotación en el inventario, con el propósito de optimizar la gestión del stock. Este análisis resulta fundamental para las empresas, ya que permite anticiparse a la demanda real, reducir pérdidas económicas y mejorar la eficiencia en la planificación de compras y abastecimiento..
 
 Problema:
 La empresa puede estar comprando demasiado de algunos productos que casi no se venden y poco de los que más se venden.
 
 Solución:
-Analizar los datos para encontrar los productos más y menos vendidos, su frecuencia o ciudad donde más se compran, y generar alertas o recomendaciones para organizar el inventario y evitar pérdidas.
+La solución propuesta consiste en implementar un sistema de análisis de datos que permita:
+- Identificar los productos más vendidos y los que permanecen estancados en el inventario.  
+- Analizar la frecuencia de compra y las ciudades o regiones con mayor concentración de ventas.  
+- Generar alertas y recomendaciones automáticas para reorganizar el inventario, optimizar las compras y reducir pérdidas económicas.
 
 2. Dataset de referencia:
 Fuente: La información utilizada para este análisis proviene de tablas en formato Excel que contienen datos estructurados sobre los productos, sus ventas y existencias en distintos periodos y ubicaciones. Estas tablas constituyen la base principal del estudio, ya que permiten observar y analizar el comportamiento de los productos dentro del inventario. A partir de ellas, es posible identificar patrones de venta, detectar cuáles artículos tienen una mayor rotación y cuáles permanecen en stock por más tiempo, lo que facilita la toma de decisiones estratégicas relacionadas con el control y la optimización del inventario.
