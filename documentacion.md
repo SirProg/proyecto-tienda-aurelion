@@ -27,6 +27,7 @@ Escala: Nominal (Categórica) y De Razón (Ratio).
 
 3. 
 Información: El programa desarrollado en Python presenta un menú interactivo en consola que permite al usuario explorar la información del proyecto de manera organizada.
+
 Opciones del menú:
 1 - Tema, problema y solución
 2 - Dataset de referencia
