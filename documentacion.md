@@ -118,8 +118,9 @@ FIN
 
 
 # Sugerencias y mejoras aplicadas con Copilot:
-Le pedimos a Copilot sugerencias respecto a la documentación del proyecto, Copilot dió la siguiente información:
-Sugerencias de Mejora para la Documentación del Proyecto
+Le pedimos a Copilot sugerencias respecto a la documentación del proyecto, Copilot proporcionó la siguiente información:
+
+Sugerencias de Mejora para la Documentación del Proyecto:
 
 El siguiente documento presenta recomendaciones para enriquecer y estructurar de manera más clara la documentación del proyecto educativo sobre fundamentos de inteligencia artificial. Las sugerencias se enfocan en mejorar la redacción, la organización de ideas y la inclusión de apartados que aporten mayor valor académico y técnico.
 
@@ -221,3 +222,5 @@ Justificación: Estas recomendaciones fortalecen la presentación académica y t
 
 8. Conclusión
 La documentación debe reflejar tanto los aspectos teóricos (tema, problema, solución, dataset) como los técnicos (estructura de datos, programa interactivo, flujo de uso). Una redacción clara, organizada y detallada permitirá que el proyecto sea comprendido y replicado con facilidad en contextos educativos y profesionales.
+
+De todas las sugerencias proporcionadas, se decidieron aplicar los puntos 1. tema, 3. Solución y 6. programa interactivo, 
