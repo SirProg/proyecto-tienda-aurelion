@@ -1,4 +1,4 @@
-Le pedimos a Copilot sugerencias respecto a la documentación del proyecto usando el motor de IA GPT-5 con el siguiete Prompt:
+Le pedimos a Copilot sugerencias respecto a la documentación del proyecto usando el motor de IA GPT-5 con el siguiente Prompt:
 
 /fix @workspace 
 Contexto:
