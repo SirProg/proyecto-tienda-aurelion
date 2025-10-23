@@ -19,16 +19,21 @@ La solución propuesta consiste en implementar un sistema de análisis de datos 
 # Fuente: 
 La información utilizada para este análisis proviene de tablas en formato Excel que contienen datos estructurados sobre los productos, sus ventas y existencias en distintos periodos y ubicaciones. Estas tablas constituyen la base principal del estudio, ya que permiten observar y analizar el comportamiento de los productos dentro del inventario. A partir de ellas, es posible identificar patrones de venta, detectar cuáles artículos tienen una mayor rotación y cuáles permanecen en stock por más tiempo, lo que facilita la toma de decisiones estratégicas relacionadas con el control y la optimización del inventario.
 
-Definición: Este tipo de información corresponde a datos estructurados de origen primario, en este contexto, la gestión eficiente del inventario se entiende como el proceso de analizar los datos de ventas y existencias para determinar qué productos se comercializan con mayor frecuencia y cuáles tienden a mantenerse sin movimiento. El objetivo principal de esta gestión es optimizar el control del stock, prevenir pérdidas económicas y mejorar la planificación tanto de las compras como del abastecimiento. A través del análisis de estos datos, se busca obtener información valiosa que sirva para orientar decisiones estratégicas, como ajustar los pedidos de acuerdo con la demanda, la temporada o incluso la ubicación geográfica, asegurando así una administración más precisa y rentable del inventario.
+# Definición: 
+Este tipo de información corresponde a datos estructurados de origen primario, en este contexto, la gestión eficiente del inventario se entiende como el proceso de analizar los datos de ventas y existencias para determinar qué productos se comercializan con mayor frecuencia y cuáles tienden a mantenerse sin movimiento. El objetivo principal de esta gestión es optimizar el control del stock, prevenir pérdidas económicas y mejorar la planificación tanto de las compras como del abastecimiento. A través del análisis de estos datos, se busca obtener información valiosa que sirva para orientar decisiones estratégicas, como ajustar los pedidos de acuerdo con la demanda, la temporada o incluso la ubicación geográfica, asegurando así una administración más precisa y rentable del inventario.
 
-Estructura: Se adoptará un modelo de datos estructurados, caracterizado por su alto nivel de organización y formato predefinido. Estos datos se almacenarán entablas compuestas por filas y columnas.
+# Estructura: 
+Se adoptará un modelo de datos estructurados, caracterizado por su alto nivel de organización y formato predefinido. Estos datos se almacenarán entablas compuestas por filas y columnas.
    
-Tipos: Numéricos (enteros(INT) y decimales (FLOAT)), Texto (cadena de caracteres(STRING)) y Fecha (DATE).
+# Tipos: 
+Numéricos (enteros(INT) y decimales (FLOAT)), Texto (cadena de caracteres(STRING)) y Fecha (DATE).
    
-Escala: Nominal (Categórica) y De Razón (Ratio).
+# Escala: 
+Nominal (Categórica) y De Razón (Ratio).
 
-3. 
-Información: El programa desarrollado en Python presenta un menú interactivo en consola que permite al usuario explorar la información del proyecto de manera organizada.
+# 3. 
+# Información: 
+El programa desarrollado en Python presenta un menú interactivo en consola que permite al usuario explorar la información del proyecto de manera organizada.
 
 Opciones del menú:
 
@@ -38,14 +43,14 @@ Opciones del menú:
 4 - Sugerencias y mejoras aplicadas con copilot.
 5 - Salir.
 
-Pasos: 
+# Pasos: 
 1. El usuario ejecuta el programa en la terminal de Visual Studio Code.  
 2. Se despliega el menú con las opciones numeradas.  
 3. El usuario selecciona una opción ingresando el número correspondiente.  
 4. El programa muestra la información asociada a la opción elegida.  
 5. El menú se repite hasta que el usuario seleccione la opción de salida.
 
-Pseudocódigo:
+# Pseudocódigo:
 
 // ------------------------------------------
 // INICIO del Programa
@@ -108,4 +113,4 @@ INICIO
 FIN
 
 
-Diagrama del programa: (Ver imagen Diagrama de Flujo - Grupo 6.jpeg)
+# Diagrama del programa: (Ver imagen Diagrama de Flujo - Grupo 6.jpeg)
