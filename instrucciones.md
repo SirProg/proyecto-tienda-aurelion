@@ -1,3 +1,6 @@
+Le pedimos a Copilot sugerencias respecto a la documentación del proyecto usando el motor de IA GPT-5 con el siguiete Prompt:
+
+/fix @workspace 
 Contexto:
 Estoy trabajando en un proyecto educativo sobre fundamentos de inteligencia artificial en Visual Studio Code. 
 El proyecto incluye un programa en Python que muestra un menú interactivo con opciones para visualizar información del proyecto. 
