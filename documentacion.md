@@ -45,4 +45,65 @@ Pasos:
 
 Pseudocódigo:
 
+// ------------------------------------------
+// INICIO del Programa
+// ------------------------------------------
+INICIO
+
+    // Mensaje de Bienvenida
+    ESCRIBIR "Bienvenido al Proyecto del Grupo 6, por favor ingresa el número de opción que desees visualizar"
+    
+    // Inicialización para control del bucle
+    opcion <- 0 
+    
+    // Bucle Principal: Repetir MIENTRAS la opción NO sea 5 (Salir)
+    MIENTRAS (opcion != 5) HACER 
+        
+        // Mostrar Opciones
+        ESCRIBIR "--- MENÚ ---"
+        ESCRIBIR "1. Mensaje del Tema, Problema y Solución"
+        ESCRIBIR "2. Mensaje del Dataset de Referencia"
+        ESCRIBIR "3. Mensaje de Información, Pasos, Pseudocódigo y Diagrama"
+        ESCRIBIR "4. Mensaje de Sugerencias y Mejoras aplicadas con Copilot"
+        ESCRIBIR "5. Salir"
+        ESCRIBIR "Ingrese su opción (1-5): "
+        
+        // Leer Opción
+        LEER opcion 
+        
+        // Procesar Opción
+        SEGÚN (opción) HACER
+            
+            CASO 1:
+                ESCRIBIR "➡ ️ Ejecutando: Mensaje del Tema, Problema y Solución"
+                
+                
+            CASO 2:
+                ESCRIBIR "➡ ️ Ejecutando: Mensaje del Dataset de Referencia"
+                
+                
+            CASO 3:
+                ESCRIBIR "➡ ️ Ejecutando: Mensaje de Información, Pasos, Pseudocódigo y Diagrama"
+                
+                
+            CASO 4:
+                ESCRIBIR "➡ ️ Ejecutando: Mensaje de Sugerencias y Mejoras aplicadas con Copilot"
+                
+                
+            CASO 5:
+                ESCRIBIR "Gracias por haber visto nuestro proyecto, nos vemos en una próxima oportunidad..."
+                // La acción de salida ocurre al finalizar el bucle
+                
+            DEFAULT:
+                ESCRIBIR "OPCION FUERA DE RANGO, POR FAVOR INGRESA UNA OPCIÓN ENTRE 1 Y 5"
+                
+        FIN_SEGÚN
+        
+    FIN MIENTRAS
+    
+    ESCRIBIR "Saliendo del programa..."
+
+FIN
+
+
 Diagrama del programa: (Ver imagen Diagrama de Flujo - Grupo 6.jpeg)
