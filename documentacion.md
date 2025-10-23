@@ -16,6 +16,7 @@ La solución propuesta consiste en implementar un sistema de análisis de datos 
 
 2.
 Dataset de referencia:
+
 Fuente: La información utilizada para este análisis proviene de tablas en formato Excel que contienen datos estructurados sobre los productos, sus ventas y existencias en distintos periodos y ubicaciones. Estas tablas constituyen la base principal del estudio, ya que permiten observar y analizar el comportamiento de los productos dentro del inventario. A partir de ellas, es posible identificar patrones de venta, detectar cuáles artículos tienen una mayor rotación y cuáles permanecen en stock por más tiempo, lo que facilita la toma de decisiones estratégicas relacionadas con el control y la optimización del inventario.
 
 Definición: Este tipo de información corresponde a datos estructurados de origen primario, en este contexto, la gestión eficiente del inventario se entiende como el proceso de analizar los datos de ventas y existencias para determinar qué productos se comercializan con mayor frecuencia y cuáles tienden a mantenerse sin movimiento. El objetivo principal de esta gestión es optimizar el control del stock, prevenir pérdidas económicas y mejorar la planificación tanto de las compras como del abastecimiento. A través del análisis de estos datos, se busca obtener información valiosa que sirva para orientar decisiones estratégicas, como ajustar los pedidos de acuerdo con la demanda, la temporada o incluso la ubicación geográfica, asegurando así una administración más precisa y rentable del inventario.
