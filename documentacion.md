@@ -2,7 +2,7 @@
 Gestión eficiente de inventario 
 
 1.
-Tema:
+# Tema:
 El proyecto se centra en la identificación de los productos con mayor y menor rotación en el inventario, con el propósito de optimizar la gestión del stock. Este análisis resulta fundamental para las empresas, ya que permite anticiparse a la demanda real, reducir pérdidas económicas y mejorar la eficiencia en la planificación de compras y abastecimiento..
 
 Problema:
