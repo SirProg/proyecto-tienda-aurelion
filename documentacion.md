@@ -1,7 +1,7 @@
 # proyecto-tienda-aurelion
 # Gestión eficiente de inventario 
 
-# 1.
+
 # Tema:
 El proyecto se centra en la identificación de los productos con mayor y menor rotación en el inventario, con el propósito de optimizar la gestión del stock. Este análisis resulta fundamental para las empresas, ya que permite anticiparse a la demanda real, reducir pérdidas económicas y mejorar la eficiencia en la planificación de compras y abastecimiento..
 
@@ -14,7 +14,8 @@ La solución propuesta consiste en implementar un sistema de análisis de datos 
 - Analizar la frecuencia de compra y las ciudades o regiones con mayor concentración de ventas.  
 - Generar alertas y recomendaciones automáticas para reorganizar el inventario, optimizar las compras y reducir pérdidas económicas.
 
-# 2. Dataset de referencia:
+
+# Dataset de referencia:
 
 # Fuente: 
 La información utilizada para este análisis proviene de tablas en formato Excel que contienen datos estructurados sobre los productos, sus ventas y existencias en distintos periodos y ubicaciones. Estas tablas constituyen la base principal del estudio, ya que permiten observar y analizar el comportamiento de los productos dentro del inventario. A partir de ellas, es posible identificar patrones de venta, detectar cuáles artículos tienen una mayor rotación y cuáles permanecen en stock por más tiempo, lo que facilita la toma de decisiones estratégicas relacionadas con el control y la optimización del inventario.
@@ -31,7 +32,7 @@ Numéricos (enteros(INT) y decimales (FLOAT)), Texto (cadena de caracteres(STRIN
 # Escala: 
 Nominal (Categórica) y De Razón (Ratio).
 
-# 3. 
+ 
 # Información: 
 El programa desarrollado en Python presenta un menú interactivo en consola que permite al usuario explorar la información del proyecto de manera organizada.
 
@@ -114,3 +115,6 @@ FIN
 
 
 # Diagrama del programa: (Ver imagen Diagrama de Flujo - Grupo 6.jpeg)
+
+
+# Sugerencias y mejoras aplicadas con Copilot:
