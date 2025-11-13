@@ -246,3 +246,82 @@ Se aplicaron las sugerencias que aportaban claridad, coherencia con los objetivo
 - Mantiene un equilibrio adecuado entre lenguaje técnico y accesible.
 - Respeta las opciones del menú ya establecidas en el programa original.
 - Explica la interacción con el usuario paso a paso, mejorando la usabilidad percibida.
+
+---
+
+### Limpieza de los datos
+Hemos culminado la fase crítica de limpieza y preparación de la base de datos proporcionada. Siguiendo las mejores prácticas de la ciencia de datos y las sugerencias de Copilot para mitigar errores comunes, la data ahora presenta una alta calidad e integridad para el análisis de rotación de inventario.
+El proceso se centró en la estandarización y la eliminación de redundancia, resultando en un dataset optimizado:
+
+
+**Acciones de Limpieza y Transformación**
+- **Integración y Consistencia de Claves:**
+    - Se priorizó el uso de identificadores únicos (`id_cliente`, `id_producto`, `id_venta`) como ejes centrales de la base de datos.
+
+- **Eliminación de Columnas Redundantes:**
+
+    - **Tabla Ventas:** Se eliminaron las columnas `nombre_cliente` y `email`, ya que la información se obtiene de manera fidedigna y no redundante a través de `id_cliente` en la tabla `Clientes`.
+
+    - **Tabla Detalle_ventas:** Se eliminaron `nombre_producto` y `precio_unitario`, confiando en la tabla maestra `Productos` para esta información, garantizando la unicidad.
+
+- **Estandarización de Datos Categóricos:**
+
+    - **Tabla Productos:** Se realizó una revisión y reasignación manual exhaustiva de `categorías`, corrigiendo inconsistencias en la implementación inicial para asegurar una clasificación coherente y precisa de los productos.
+
+- **Validación Estructural (`Tabla Clientes`):**
+
+    Tras la revisión, se confirma que la tabla Clientes presenta una estructura interna robusta, con tipos de datos correctos, listas de datos en orden y sin duplicados que afecten la integridad de los IDs.
+
+- **Nuevas Tablas implementadas:**
+    Se crearon nuevas tablas entre las cuales son:
+    - **Categorias:** Está tabla nos proporcionara la categoria de cada producto de manera más eficiente.
+    - **Metodos de pagos:** Está tabla nos proporciona los métodos de pago que se pueden aplicar a la hora de la venta de los productos que requiera el cliente.
+
+---
+
+### Estadística descriptiva básicas
+Ofrecemos un panorama rápido de la distribución de las variables clave, para entender el volumen y el valor de las ventas
+**Variables Analizadas:**
+- **Cantidad con respecto a cada producto**
+    Se realizo una observación de los productos que más y menos se venden durante las fechas del **2024-01-02** al **2024-06-28**:
+
+    En promedio la cantidad de los productos que se venden es de: 3
+    La cantidad de ventas que más se repite es de: 2
+    El rango que existe al momento de vender productos en cantidad es de: 4
+
+    **Mas vendidos:** 
+    - Salsa de Tomate 500g - 27
+    - Queso Cremoso 500g - 26 
+    - Hamburguesa Congeladas x4 - 24
+    - Aceitunas Verdes 200g - 22
+    - Vino Blanco 750ml - 22
+    
+    **Menos vendidos:**
+    - Galletitas Vainilla - 2
+    - Alfajor Triple - 2
+    - Detergente Líquido 750ml - 2
+    - Chocolate Amargo 100g - 2
+    -  Porotos Negros 500g - 3
+    
+- **Productos comprados por ciudades**
+    Con este análisis podemos establecer en que ciudades se frecuentan más las compras de los productos, llegando a predecir cuanto de cada producto se requiere en las ciudades, llevando un mejor control de inventario.
+    **Mas vendidos:**
+    - Hamburguesas Congeladas x4 - Alta Gracia - 14
+    - Mermelada de Frutilla 400g - Alta Gracia - 11
+    - Ron 700ml - Alta Gracia - 10
+    - Aceite de Girasol 1L - Alta Gracia - 9
+    - Dulce de Leche 400g  - Alta Gracia - 9
+
+    **Menos vendidos:**
+    - Sopa Instantánea Pollo - Villa Maria - 1
+    - Trapo de Piso - Villa Maria - 1
+    - Té Verde 20 saquitos - Villa Maria - 1
+    - Desodorante Aerosol - Villa Maria - 2
+    - Energética Nitro 500ml - Villa Maria - 2
+
+- Se evaluará los productos que han sido más vendidos para determinar el aumento del producto dentro del inventario, gestionando el dinero de manera más optimizada sin pérdidas.
+
+### Distribución de datos
+
+La distribución de datos es Multimodal dado que presentan una cantidad que puede o no ser incremental, al momento de la venta, por lo que se considera que 
+ 
