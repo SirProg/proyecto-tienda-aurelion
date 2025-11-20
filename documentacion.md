@@ -323,5 +323,6 @@ Ofrecemos un panorama rápido de la distribución de las variables clave, para e
 
 ### Distribución de datos
 
-La distribución de datos es Multimodal dado que presentan una cantidad que puede o no ser incremental, al momento de la venta, por lo que se considera que 
+La distribución de datos es Multimodal dado que presentan una cantidad que puede o no ser incremental al momento de la venta, por lo que se considera que 
+ 
  
