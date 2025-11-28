@@ -1,0 +1,5 @@
+id_medio_pago,nombre_medio_pago
+1,efectivo
+2,transferencia
+3,tarjeta
+4,qr
